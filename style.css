@@ -1,0 +1,235 @@
+
+body{
+  font-family:'Palatino Linotype';
+  background-color:#F7F7F7;
+}
+.container{
+  width:100%;
+}
+nav{
+text-align: center;
+border: 5px solid;
+margin-bottom: 30px;
+margin-top: 30px;
+background-color: #222222;
+}
+nav ul{
+margin: 0 ;
+padding: 0 ;
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+width: 18%;
+min-width: 90px;
+}
+nav ul li:hover{
+  background-color: #4865B2;
+}
+nav ul li a{
+text-decoration: none;
+font-weight: bold;
+font-size: 30px;
+color: #FFFFFF;
+}
+.TitleSpace{
+  width: 100%;
+  min-height: 400px;
+  border: 5px solid;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  background-image: url("http://aniran.versus.jp/aniran/images/TitleSpace.gif");
+}
+.TitleSpace p{
+  position:absolute;
+  color: white;
+  font-size: 100px;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+}
+.MainContainer{
+  width:70%;
+  background-color: #FFFFFF;
+  height:2555px;
+  border: 5px solid;
+  margin-top: 30px;
+  float: left;
+}
+.MainContainer h1{
+  text-align: center;
+  font-size: 50px;
+  color: #222222;
+}
+
+.PostContents{
+  width:90%;
+  display:block;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.PostContents img{
+  width: 500px;
+  height: 500px;
+  border: 5px solid #222222;
+  box-shadow:2px 5px 8px #bbb;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+a.btn-border {
+  margin-bottom: 12px;
+  padding: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 0;
+}
+
+a.btn-border span {
+  position: relative;
+  display: block;
+  padding: 1.25rem 3rem;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 0.5rem;
+  background: #fff;
+}
+
+a.btn-border:before {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 14px;
+  content: "";
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 2px solid #000;
+  border-top: 1px solid #000;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-image: -webkit-repeating-linear-gradient(
+    135deg,
+    #000,
+    #000 1px,
+    transparent 2px,
+    transparent 5px
+  );
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #000,
+    #000 1px,
+    transparent 2px,
+    transparent 5px
+  );
+  background-size: 7px 7px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+a.btn-border:hover {
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+}
+
+a.btn-border:hover:before {
+  bottom: -5px;
+}
+
+a.btn-border:active {
+  -webkit-transform: translate(0, 7px);
+  transform: translate(0, 7px);
+}
+
+a.btn-border:active:before {
+  bottom: -1px;
+}
+
+.SubContainer{
+  width:27%;
+  background-color: #FFFFFF;
+  height:auto;
+  border: 5px solid;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  float: right;
+}
+.Sidebar h3{
+  font-size: 40px;
+  color: #222222;
+  font-weight: bold;
+  padding-left: 30px;
+  margin:0;
+  margin-top: 33.5px;
+}
+.Sidebar ul{
+  list-style: "▶";
+  padding-left: 100px;
+}
+.Sidebar ul li::marker{
+  font-size: 40px;
+}
+.Sidebar ul li a{
+  font-size: 30px;
+  text-decoration: none;
+  color: #222222;
+}
+
+
+footer{
+  text-align: center;
+  border: 5px solid;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+}
+
+/* micro clearfx */
+.cf:before,
+.cf:after{
+    content: "";
+    display: table;
+}
+.cf:after{ clear: both; }
+.cf{ zoom: 1; }
+}
+}
